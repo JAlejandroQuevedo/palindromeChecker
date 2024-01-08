@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/imag/ico-2.ico" />
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <img class="freecodecamp-logo" src="./assets/imag/icon.jpeg"
+            alt="freeCodeCamp Logo" />
+        <h1 class="title">¿Es un palíndromo?</h1>
+        <div class="palindrome-div">
+            <label for="text-input">Ingrese en el texto para buscar una palíndromo:
+            </label>
+            <input class="palindrome-input" id="text-input" value="" type="text" />
+            <button class="palindrome-btn" id="check-btn">Enviar</button>
+            <div class="results-div hidden" id="result"></div>
+        </div>
+        <div class="palindrome-definition-div">
+            <p class="palindrome-definition">
+                <span role="img" aria-label="light-bulb">&#128161;</span>
+                Un <dfn>palíndromo</dfn> es una palabra u oración que se escribe igual
+                hacia adelante y hacia atrás, ignorando la puntuación, mayúsculas y minúsculas.
+                espaciado.
+            </p>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
